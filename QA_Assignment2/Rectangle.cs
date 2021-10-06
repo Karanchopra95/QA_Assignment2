@@ -25,5 +25,16 @@ namespace QA_Assignment2
 
         public int Height { get => height; set => height = value; }
         public int Width { get => width; set => width = value; }
+
+        public int getPerimeter()
+        {
+            return (Height + Height + Width + Width);
+        }
+
+        public int getArea()
+        {
+            return Height * Width;
+        }
+
     }
 }
